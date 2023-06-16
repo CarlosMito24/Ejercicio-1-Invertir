@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio_1_Invertir.MainPage">
+
+    <ScrollView>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <Image Source="invertir.jpg" HeightRequest="200" />
+            <Entry x:Name="Numero1" Placeholder="Número 1" Margin="10, 10, 10, 10" FontFamily="Centhry Gothic" FontSize="Medium"/>
+            <Entry x:Name="Numero2" Placeholder="Número 2" Margin="10, 10, 10, 10" FontFamily="Centhry Gothic" FontSize="Medium"/>
+            <Entry x:Name="Numero3" Placeholder="Número 3" Margin="10, 10, 10, 10" FontFamily="Centhry Gothic" FontSize="Medium"/>
+            <Entry x:Name="Numero4" Placeholder="Número 4" Margin="10, 10, 10, 10" FontFamily="Centhry Gothic" FontSize="Medium"/>
+            <Button x:Name="BotonInvertir"  Text="Invertir el orden" Clicked="OnButtonClicked" Margin="10, 10, 10, 10" BorderColor="Black" BorderWidth="3" FontFamily="Centhry Gothic" FontSize="Medium" BackgroundColor="Bisque"/>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
